@@ -4,5 +4,6 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
+    steps:
           - name: Run command
            run: echo Hello, Shailesh Gupta!
