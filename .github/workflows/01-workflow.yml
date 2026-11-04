@@ -1,0 +1,9 @@
+name: First Workflow
+on:
+  push:
+  jobs:
+  hello:
+    runs-on: ubuntu-latest
+  steps:
+        - name: Run commond
+        run: echo Hello Shailesh, welcome to git hub action!
